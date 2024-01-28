@@ -4,7 +4,7 @@ import lombok.Setter;
 import org.gojek.cache.strategy.CachingStrategy;
 
 @Setter
-public class GenericCache<T> {
+public class GenericCache {
 
     private CachingStrategy cachingStrategy;
     private int capacity;
@@ -15,7 +15,7 @@ public class GenericCache<T> {
         this.capacity = capacity;
     }
 
-    public T get(String key, Class<T> clazz) {
+    public <T> T get(String key, Class<T> clazz) {
         return clazz.cast(cachingStrategy.get(key));
     }
 
