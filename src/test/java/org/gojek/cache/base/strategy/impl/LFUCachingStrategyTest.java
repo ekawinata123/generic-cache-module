@@ -1,4 +1,4 @@
-package org.gojek.base.strategy.impl;
+package org.gojek.cache.base.strategy.impl;
 
 import org.gojek.cache.strategy.impl.LFUCachingStrategy;
 import org.junit.jupiter.api.Assertions;
