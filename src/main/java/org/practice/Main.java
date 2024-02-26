@@ -1,8 +1,8 @@
-package org.gojek;
+package org.practice;
 
-import org.gojek.cache.base.GenericCache;
-import org.gojek.cache.strategy.CachingStrategy;
-import org.gojek.cache.strategy.impl.LFUCachingStrategy;
+import org.practice.cache.base.GenericCache;
+import org.practice.cache.strategy.CachingStrategy;
+import org.practice.cache.strategy.impl.LFUCachingStrategy;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.gojek.data;
+package org.practice.data;
 
 import lombok.Getter;
 

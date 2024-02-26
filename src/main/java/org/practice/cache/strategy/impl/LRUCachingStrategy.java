@@ -1,6 +1,6 @@
-package org.gojek.cache.strategy.impl;
+package org.practice.cache.strategy.impl;
 
-import org.gojek.cache.strategy.CachingStrategy;
+import org.practice.cache.strategy.CachingStrategy;
 
 import java.util.*;
 

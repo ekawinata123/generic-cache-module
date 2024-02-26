@@ -1,7 +1,7 @@
-package org.gojek.base.strategy;
+package org.practice.base.strategy;
 
-import org.gojek.cache.base.GenericCache;
-import org.gojek.cache.strategy.impl.LRUCachingStrategy;
+import org.practice.cache.base.GenericCache;
+import org.practice.cache.strategy.impl.LRUCachingStrategy;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

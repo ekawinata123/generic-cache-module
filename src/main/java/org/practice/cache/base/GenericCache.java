@@ -1,7 +1,7 @@
-package org.gojek.cache.base;
+package org.practice.cache.base;
 
 import lombok.Setter;
-import org.gojek.cache.strategy.CachingStrategy;
+import org.practice.cache.strategy.CachingStrategy;
 
 @Setter
 public class GenericCache {

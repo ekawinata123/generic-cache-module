@@ -1,4 +1,4 @@
-package org.gojek.cache.strategy;
+package org.practice.cache.strategy;
 
 public interface CachingStrategy {
 
